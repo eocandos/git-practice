@@ -8,8 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class FlexComponent implements OnInit {
 
   constructor() { }
+  
+  array: any[] = ['Cuenta de Ahorros', 340000, 470000];
 
   ngOnInit() {
+
+
   }
 
 }
